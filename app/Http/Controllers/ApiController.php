@@ -29,7 +29,7 @@ class ApiController extends Controller
             }
         }
 
-        return [ // This is for visual purposes only.
+        return [ // Returning data
             "Target Database" => $db_id,
             "Database Accesskey" => $db_accesskey,
             "Database Found" => isset($retrievedData),
